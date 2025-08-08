@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>✨ SASSy Budget Tracker ✨</h1>
+    </header>
+
+    <main>
+        <div class="budgetTracker">
+            <h4>Monthly Remaining:</h4>
+            <h1 id="remainder">$0.00</h1>
+
+            <div class="ieContainer">
+                <div>
+                    <h4>Monthly Income</h4>
+                    <p id="positive" class="positive">+$0.00</p>
+                </div>
+
+                <div>
+                    <h4>Monthly Expense</h4>
+                    <p id="negative" class="negative">-$0.00</p>
+                </div>
+            </div>
+
+            <div class="sectionName">
+                <h3>Log</h3>
+                <p>Incomes and expenses</p>
+            </div>
+            <ul id="list" class="list"></ul>
+
+            <div class="sectionName">
+                <h3>Track</h3>
+                <p>Enter your income and expenses</p>
+            </div>
+
+            <form>
+                <div class="formInput">
+                    <label for="text">Memo:</label>
+                    <input type="text" id="text" placeholder="Description">
+                </div>
+
+                <div class="formInput">
+                    <label for="amount">Income/Expense:</label>
+                    <input type="number" id="amount" placeholder="Enter amount. Start with + or -">
+                </div>
+
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://github.com/janehtle" target="_blank"><img alt="GitHub logo" src="github.png"></a>
+        <p>© Jane Le 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

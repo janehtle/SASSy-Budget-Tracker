@@ -1,1 +1,2 @@
-# SASSy-Budget-Tracker
+# (SASSy) Budget Tracker
+
