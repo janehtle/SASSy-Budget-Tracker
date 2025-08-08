@@ -1,4 +1,14 @@
 $border-default: 1px solid rgb(75, 74, 74);
+$primary-color: #f8f9fb;
+
+//$gradient-palette: linear-gradient(to right, #f194b8, #e2b4c6);
+@mixin gradient-header {
+    background: linear-gradient(to right, #f194b8, #e2b4c6);
+}
+@mixin gradient-footer {
+    background: linear-gradient(to left, #ecf1fa, #f5f7f8);
+}
+
 /*-------------------------------------*/
 
 body {
@@ -10,12 +20,12 @@ body {
 header{
     display: flex;
     justify-content: center;
-    background-color: #f8f9fb;
+    @include gradient-header(); //background: $gradient-palette;
 
     h1{
         text-transform: none;
         padding: 20px 5px;
-        color: #f194b8;
+        color: white;
         font-family: cursive;
         font-size: 34px;
         font-weight: 900;
@@ -25,7 +35,7 @@ header{
 
 main {
     min-height: 100vh;
-    background-color: #f8f9fb;
+    background-color: $primary-color;
 }
 
 .budgetTracker {
@@ -115,7 +125,7 @@ form {
 }
 
 footer {
-    background-color: #ecf1fa;
+    @include gradient-footer();
     display: flex;
     flex-direction: column;
     align-items: center;

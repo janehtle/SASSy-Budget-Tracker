@@ -8,12 +8,12 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background-color: #f8f9fb;
+  background: linear-gradient(to right, #f194b8, #e2b4c6);
 }
 header h1 {
   text-transform: none;
   padding: 20px 5px;
-  color: #f194b8;
+  color: white;
   font-family: cursive;
   font-size: 34px;
   font-weight: 900;
@@ -104,7 +104,7 @@ form button {
 }
 
 footer {
-  background-color: #ecf1fa;
+  background: linear-gradient(to left, #ecf1fa, #f5f7f8);
   display: flex;
   flex-direction: column;
   align-items: center;
