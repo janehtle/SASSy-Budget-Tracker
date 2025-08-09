@@ -23,6 +23,6 @@ Important note: for expenses, make sure that the amount inputted starts with a m
 
 # Takeaways
 
-This was one of my most challenging projects as the JavaScript portion and utilizing SASS was what stumped me. However, SASS was not as hard as I thought, but the mixins are things that I still need to work on. Additionally, determining whether or not I would continue to implement this to every project moving forward or if its an instance of how big the project is that one was utilize SASS. 
+This was one of my most challenging projects as the JavaScript portion and utilizing SASS was what stumped me. However, SASS was not as hard as I thought, but the mixins are things that I still need to work on. Additionally, determining whether or not I would continue to implement this to every project moving forward or if its an instance of how big the project is that one would utilize SASS. 
 
 Additionally, learning about object-oriented programming, this shows me I still need more work as I had created an object but not the class. I had experienced difficulty understanding how it could be utilized for this particular task.
