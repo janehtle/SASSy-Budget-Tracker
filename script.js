@@ -22,8 +22,8 @@ function id() { //generate a random numerical ID for each object to reference
 }
 
 //func that will accept user entries and display under log
-function trackInput(x) {
-    x.preventDefault(); //prevents page from refreshing each time submit btn clicked and losing each entry
+function trackInput(event) {
+    event.preventDefault(); //prevents page from refreshing each time submit btn clicked and losing each entry
     
     const transaction = { //transaction object
         id: id(),
